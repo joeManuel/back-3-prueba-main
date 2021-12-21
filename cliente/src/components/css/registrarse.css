@@ -1,0 +1,24 @@
+.container-registrarse {
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #e6e0e0;
+    border-radius: 10px;
+}
+
+.container-registrarse h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.registrarse {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 40px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
